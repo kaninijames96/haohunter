@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Navbar() {
   return (
     <nav className="bg-[#6B21A8] text-white p-4 flex justify-between items-center border-b-2 border-[#D4AF37]">
@@ -7,5 +8,5 @@ export default function Navbar() {
         <button className="bg-[#D4AF37] text-[#6B21A8] px-4 py-1 rounded-full">Login</button>
       </div>
     </nav>
-  )
+  );
 }
